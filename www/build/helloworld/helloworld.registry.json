@@ -1,0 +1,15 @@
+{
+  "namespace": "helloworld",
+  "fsNamespace": "helloworld",
+  "loader": "../helloworld.js",
+  "corePolyfilled": "es5-build-disabled.js",
+  "global": "helloworld.global.js",
+  "core": "helloworld.core.js",
+  "components": {
+    "hello-world": {
+      "bundleIds": {
+        "$": "hello-world"
+      }
+    }
+  }
+}

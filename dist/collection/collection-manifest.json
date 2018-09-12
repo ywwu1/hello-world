@@ -1,0 +1,24 @@
+{
+  "components": [
+    {
+      "tag": "hello-world",
+      "dependencies": [],
+      "componentClass": "HelloWorld",
+      "componentPath": "helloWorld.js",
+      "styles": {}
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.12.4",
+    "typescriptVersion": "2.9.2"
+  },
+  "bundles": [
+    {
+      "components": [
+        "hello-world"
+      ]
+    }
+  ]
+}
